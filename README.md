@@ -23,15 +23,7 @@ This project interfaces a DHT11 sensor with the M5StickC Plus device to measure 
    - **DHT Pin**: Connect the DHT11 sensor to pin 26 on the M5StickC Plus.
 
 3. **Customizations**:
-   - Color settings for the LCD display are defined with `TFT_GREY`.
-
-## Code Overview
-
-- **Sensor Initialization**:
-  The `DHT_Async` class is used to configure the DHT11 sensor.
-
-- **Data Reading**:
-  The `measure_environment` function retrieves temperature and humidity values without blocking the main program flow.
+   - A simple frame to show information
 
 ## Hardware Requirements
 
@@ -39,13 +31,9 @@ This project interfaces a DHT11 sensor with the M5StickC Plus device to measure 
 - DHT11 Temperature and Humidity Sensor
 - Connection Wires
 
-## Preview
-
-![Project Preview](#)
-
 ## How to Use
 
-1. Connect the DHT11 sensor to pin 26 of the M5StickC Plus.
+1. Connect the DHT11 3v3, outpout and GND to 3v3, pin 26 and GND seperately of the M5StickC Plus.
 2. Install the required libraries in your Arduino IDE.
 3. Upload the code to the M5StickC Plus.
 4. View the real-time temperature and humidity data on the device's LCD.
@@ -58,4 +46,4 @@ This project interfaces a DHT11 sensor with the M5StickC Plus device to measure 
 ---
 
 ![image](https://github.com/hexogen1110/m5stickCP_dht11/blob/main/Front.jpg)
-![image](https://github.com/hexogen1110/m5stickCP_dht11/blob/main/End.jpg)
+![image](https://github.com/hexogen1110/m5stickCP_dht11/blob/main/Back.jpg)
